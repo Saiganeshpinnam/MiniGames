@@ -1,0 +1,362 @@
+.play-bg-container {
+  width: 1440px;
+  height: 1024px;
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.back-rules-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.back-btn-container {
+  width: 76px;
+  height: 32px;
+  top: 64px;
+  left: 165px;
+  gap: 8px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.back-icon {
+  width: 16px;
+  height: 14px;
+  top: 5px;
+  left: 4px;
+  color: #ffffff;
+}
+.back-text {
+  width: 44px;
+  height: 32px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.rules-btn {
+  width: 62px;
+  height: 32px;
+  border-radius: 8px;
+  border-width: 2px;
+  gap: 8px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+}
+.rps-heading {
+  width: 480px;
+  height: 64px;
+  top: 128px;
+  left: 480px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.lets-pick-text {
+  width: 196px;
+  height: 65px;
+  top: 256px;
+  left: 622px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.options-container {
+  width: 496px;
+  height: 344px;
+  top: 369px;
+  left: 527px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+.my-choice-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.option-image {
+  width: 159px;
+  height: 159px;
+  top: 369px;
+  left: 527px;
+}
+.rps-score-container {
+  width: 718px;
+  height: 179px;
+  top: 224px;
+  left: 361px;
+  border-radius: 12px;
+  border-width: 2px;
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rps-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin: 10px;
+}
+.game-text {
+  width: 53px;
+  height: 33px;
+  top: 32px;
+  left: 34px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 15px;
+  color: #ffffff;
+}
+.score-container {
+  width: 160px;
+  height: 125px;
+  top: 32px;
+  left: 526px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7e858e29;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score-text {
+  width: 59px;
+  height: 33px;
+  top: 40px;
+  left: 582px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #223a5f;
+  text-align: center;
+  margin: 0px;
+}
+.user-score {
+  width: 57px;
+  height: 60px;
+  top: 74px;
+  left: 578px;
+  font-family: HK Grotesk;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #223a5f;
+  margin: 0px;
+}
+.emoji-score-container {
+  width: 738px;
+  height: 179px;
+  top: 224px;
+  left: 361px;
+  border-radius: 12px;
+  border-width: 2px;
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.you-won-emoji {
+  width: 147px;
+  height: 160px;
+  top: 16px;
+  left: 290px;
+}
+.result-score-container {
+  width: 160px;
+  height: 115px;
+  top: 32px;
+  left: 526px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7e858e29;
+  color: #7e858e29;
+}
+.result-score-text {
+  width: 59px;
+  height: 33px;
+  top: 40px;
+  left: 582px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #223a5f;
+}
+.result-user-score {
+  width: 57px;
+  height: 60px;
+  top: 74px;
+  left: 578px;
+  font-family: HK Grotesk;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #223a5f;
+}
+.you-opponent-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+  margin-top: 42px;
+}
+.you-text {
+  width: 39px;
+  height: 33px;
+  top: 467px;
+  left: 455px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.opponent-text {
+  width: 105px;
+  height: 33px;
+  top: 467px;
+  left: 913px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.result-container {
+  width: 699px;
+  height: 188px;
+  top: 562px;
+  left: 380px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.your-choice-image {
+  width: 188px;
+  height: 188px;
+  top: 562px;
+  left: 380px;
+}
+.you-won-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 170px;
+  top: 562px;
+  left: 632px;
+  border-radius: 12px;
+}
+.happy-emoji {
+  width: 36px;
+  height: 36px;
+  top: 562px;
+  left: 702px;
+}
+.you-won-text {
+  width: 137px;
+  height: 48px;
+  top: 614px;
+  left: 651px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.play-rps-again-btn {
+  width: 175px;
+  height: 54px;
+  top: 778px;
+  left: 632px;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  gap: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 28px;
+}
+.opponent-choice-image {
+  width: 188px;
+  height: 188px;
+  top: 562px;
+  left: 871px;
+}
+.rps-modal-container {
+  width: 1340px;
+  height: 680px;
+  top: 172px;
+  left: 150px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.rules-set-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.each-rps-modal-rule {
+  width: 498px;
+  height: 64px;
+  top: 300px;
+  left: 198px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #475569;
+  margin : 10px;
+}

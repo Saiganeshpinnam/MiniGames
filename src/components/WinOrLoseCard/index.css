@@ -1,0 +1,124 @@
+.bg-container {
+  background: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
+  width: 1440px;
+  height: 1000px;
+  top: -8581px;
+  left: -52520px;
+}
+.header-container {
+  background-color: #ffffff33;
+  height: 10%;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  backdrop-filter: blur(20px);
+}
+.emoji-logo {
+  width: 48;
+  height: 48;
+  top: 26px;
+  left: 165px;
+}
+.emoji-game-heading {
+  width: 130px;
+  height: 28px;
+  top: 36px;
+  left: 225px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #334155;
+}
+.game-result-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.game-result-container {
+  width: 900px;
+  height: 550px;
+  top: 237px;
+  left: 270px;
+  border-radius: 24px;
+  border-width: 3px;
+  background: #ffffff33;
+  border: 3px solid #ffffff30;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.result-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-image {
+  width: 373.43701171875;
+  height: 479.6550598144531;
+  top: 304.61px;
+  left: 781px;
+}
+.you-lose-heading {
+  width: 198px;
+  height: 56px;
+  top: 364px;
+  left: 442px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #334155;
+}
+.best-score {
+  width: 117px;
+  height: 32px;
+  top: 468px;
+  left: 482px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+.user-score {
+  width: 129px;
+  height: 64px;
+  top: 508px;
+  left: 476px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #523fff;
+}
+.play-again-btn {
+  width: 145px;
+  height: 40px;
+  top: 620px;
+  left: 468px;
+  border-radius: 2000px;
+  background-color: #ffce27;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3d3d3d;
+  cursor: pointer;
+}

@@ -1,0 +1,152 @@
+.cards-play-area-bg-container {
+  background-image: url('https://res.cloudinary.com/dccbkv07a/image/upload/v1747334183/44350_1_lpd9go.png');
+  width: 1440px;
+  height: 1144px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container {
+  background-image: url('https://res.cloudinary.com/dccbkv07a/image/upload/v1747334395/Rectangle_528_kqcvyw.png');
+  width: 928px;
+  height: 752px;
+  top: 296px;
+  left: 256px;
+  border-radius: 24px;
+  border-width: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.each-hidden-card-item {
+  background-color: #a7f3d080;
+  width: 15%;
+  height: 15%;
+  border-radius: 16px;
+  border-width: 3px;
+  border: 3px solid #ffffff30;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.each-card-item {
+  width: 15%;
+  height: 15%;
+  border-radius: 16px;
+  border-width: 3px;
+  border: 3px solid #ffffff30;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.card-image {
+  height: 60%;
+  width: 60%;
+}
+.card-btn-image {
+  background-color: transparent;
+  border-width: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.count-timer-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 898px;
+  left: 256px;
+}
+.flip-count {
+  width: 215px;
+  height: 32px;
+  top: 248px;
+  left: 270px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.flip-score {
+  width: 119px;
+  height: 32px;
+  top: 248px;
+  left: 1061px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+}
+.timer-seconds {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.result-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #14332e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-emoji-face {
+  width: 180px;
+  height: 180px;
+}
+.game-status-message {
+  color: #4ade80;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+.flip-count {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.matched-message {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.play-again-flip-game {
+  width: 117px;
+  height: 48px;
+  top: 718px;
+  left: 661px;
+  border-radius: 4px;
+  color: #223a5f;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
