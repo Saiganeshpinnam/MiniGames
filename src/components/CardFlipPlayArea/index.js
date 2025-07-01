@@ -222,8 +222,9 @@ class CardFlipPlayArea extends Component {
     this.setState({
       isComparing: true,
     })
-    const [firstCard, secondCard, score] = this.state.flippedCards
-    const {flipCount} = this.state
+     const {flippedCards, flipCount} = this.state
+    const [firstCard, secondCard, score] =flippedCards
+
     if (firstCard.name === secondCard.name) {
       this.setState(prevState => ({
         matchedCardIds: [

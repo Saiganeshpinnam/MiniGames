@@ -13,13 +13,13 @@ const Home = () => (
         />
         <p className="game-title">Emoji Game</p>
       </Link>
-      <div className="game-container">
+      <Link className="game-container" to="/memory-matrix">
         <p className="game-title">Memory Matrix</p>
         <img
           src="https://res.cloudinary.com/dccbkv07a/image/upload/v1747041501/memory_lzmvra.png"
           alt="memory matrix"
         />
-      </div>
+      </Link>
       <Link className="game-container" to="/rock-paper-scissor">
         <p className="game-title">ROCK PAPER SCISSOR</p>
         <img

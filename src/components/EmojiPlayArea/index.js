@@ -177,12 +177,8 @@ class EmojiPlayArea extends Component {
   shuffleEmojis = () => emojisList.sort(() => Math.random() - 0.5)
 
   render() {
-    const {
-      userSelectionEmojiList,
-      isGameInProgress,
-      isGameWon,
-      topScore,
-    } = this.state
+    const {userSelectionEmojiList, isGameInProgress, isGameWon, topScore} =
+      this.state
     const shuffledEmojisList = this.shuffleEmojis()
     return (
       <div className="play-area-bg-container">

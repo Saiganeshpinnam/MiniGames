@@ -14,6 +14,10 @@ import CardFlipMemoryGame from './components/CardFlipMemoryGame'
 
 import CardFlipPlayArea from './components/CardFlipPlayArea'
 
+import MemoryMatrix from './components/MemoryMatrix'
+
+import MemoryMatrixPlayArea from './components/MemoryMatrixPlayArea'
+
 import './App.css'
 
 const emojisList = [
@@ -168,6 +172,12 @@ const App = () => (
     <Route exact path="/rps-play-area" component={RPSPlayArea} />
     <Route exact path="/card-flip-memory-game" component={CardFlipMemoryGame} />
     <Route exact path="/card-flip-play-area" component={CardFlipPlayArea} />
+    <Route exact path="/memory-matrix" component={MemoryMatrix} />
+    <Route
+      exact
+      path="/memory-matrix-play-area"
+      component={MemoryMatrixPlayArea}
+    />
   </Switch>
 )
 
